@@ -1,0 +1,50 @@
+# Build directories
+build/
+cmake_build/
+Debug/
+Release/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiled objects
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Executables
+*.exe
+*.app
+*.out
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+
+# Test outputs
+*.log
+Testing/
+
+# Data files (optional)
+*.bin
+*.pcd
+*.bag
+
+# Documentation
+docs/build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
