@@ -1,0 +1,19 @@
+sensors:
+  lidar:
+    type: single_line
+    frame_id: lidar_link
+    frequency_hz: 15
+    topic: /sensors/lidar/scan
+  imu:
+    frame_id: imu_link
+    frequency_hz: 200
+    topic: /sensors/imu/data
+  panoramic_camera:
+    module_count: 4
+    frame_id: camera_link
+    resolution: [1920, 1080]
+    frequency_hz: 30
+    topic: /sensors/camera/panorama
+synchronization:
+  reference_sensor: imu
+  max_skew_ms: 10
